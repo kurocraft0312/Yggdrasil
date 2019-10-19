@@ -16,10 +16,22 @@ h1 {
 /**************************************************
 header
 **************************************************/
+.title-menu {
+    display: flex;
+}
+.g-nav-wrap {
+    margin-left: auto;
+}
 .g-nav {
+    display: flex;
     list-style: none;
 }
-
+.g-nav-menu {
+    padding: 8px;
+}
+.g-nav a {
+    color: #fff;
+}
 
 .site-header {
     /* グラデーションカラー設定 */
