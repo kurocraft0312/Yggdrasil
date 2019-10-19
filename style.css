@@ -92,6 +92,9 @@ footer
     background: #232323;
     padding: 8px;
 }
+.g-nav-footer-area {
+    width: 100%;
+}
 .copyright {
     text-align: center;
 }
