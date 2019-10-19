@@ -16,9 +16,8 @@ h1 {
 /**************************************************
 header
 **************************************************/
-
-.title-menu {
-    display: flex;
+.title-header {
+    padding: 24px;
 }
 .site-title {
     display: flex;
@@ -30,12 +29,16 @@ header
     background: #161410;
     width: 100%;
 }
+.title-menu {
+    display: flex;
+}
 .g-nav-wrap {
     margin: auto;
 }
 .g-nav {
     display: flex;
     list-style: none;
+    padding: 0;
 }
 .g-nav-menu {
     padding: 8px;
