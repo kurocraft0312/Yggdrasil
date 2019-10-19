@@ -72,6 +72,10 @@ header
 .top-eyecatch-image {
     width: 100%;
 }
+/* メディアクエリでheightを調整する（参考：http://www-creators.com/archives/1601）
+.top-eyecatch-image {
+    width: 100%;
+} */
 /**************************************************
 main
 **************************************************/
