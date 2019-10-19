@@ -79,6 +79,9 @@ header
 /**************************************************
 main
 **************************************************/
+#business-solution-area {
+    padding: 64px 0;
+}
 .business-solution {
     text-align: center;
 }
