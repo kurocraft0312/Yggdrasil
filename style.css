@@ -16,11 +16,22 @@ h1 {
 /**************************************************
 header
 **************************************************/
+
 .title-menu {
     display: flex;
 }
+.site-title {
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    color: #161410;
+}
+.g-nav-area {
+    background: #161410;
+    width: 100%;
+}
 .g-nav-wrap {
-    margin-left: auto;
+    margin: auto;
 }
 .g-nav {
     display: flex;
@@ -32,25 +43,6 @@ header
 .g-nav a {
     color: #fff;
 }
-
-.site-header {
-    /* グラデーションカラー設定 */
-    background: linear-gradient(to right,#200122,#D20200);
-}
-.uk-navbar-container:not(.uk-navbar-transparent) {
-    background: none;
-}
-/* ナビゲーションメニューとタイトル位置を合わせるため、.uk-navbar-nav>li>aのCSSクラスを一部複写 */
-.site-title {
-    display: flex;
-    font-size: 1.6rem;
-    align-items: center;
-    color: #fff;
-}
-.uk-navbar-nav>li>a {
-    color: #fff;
-}
-
 /**************************************************
 main
 **************************************************/
@@ -64,16 +56,17 @@ footer
 **************************************************/
 .site-footer {
     /* グラデーションカラー設定 */
-    background: linear-gradient(to right,#200122,#D20200);
+    background: #232323;
+    padding: 8px;
 }
-.copylight {
+.copyright {
     text-align: center;
 }
-.copylight p {
+.copyright p {
     color: #fff;
     margin: 8px 0;
 }
-.copylight a {
+.copyright a {
     color: #fff;
 }
 /**************************************************
