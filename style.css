@@ -82,7 +82,12 @@ main
 #business-solution-area {
     padding: 64px 0;
 }
+.management-issues {
+    padding: 64px 0;
+    text-align: center;
+}
 .business-solution {
+    padding: 64px 0;
     text-align: center;
 }
 /**************************************************
