@@ -8,6 +8,7 @@ https://www.plusdesign.co.jp/blog/?p=5152
 */
 body {
     font-size: 62.5%;
+    word-wrap: break-word;
 }
 h1 {
     margin: 0;
@@ -16,7 +17,8 @@ h1 {
 /**************************************************
 header
 **************************************************/
-.title-header {
+#title-header {
+    display: flex;
     padding: 24px;
 }
 .site-title {
@@ -26,7 +28,9 @@ header
     color: #161410;
 }
 .tel {
-    
+    font-size: 1.6rem;
+    color: #161410;
+    margin-left: auto;
 }
 .g-nav-area {
     background: #161410;
@@ -39,15 +43,22 @@ header
     margin: auto;
 }
 .g-nav {
-    display: flex;
+    display: table;
     list-style: none;
+    margin: 0;
     padding: 0;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
 }
 .g-nav-menu {
-    padding: 8px;
+    display: table-cell;
 }
 .g-nav a {
     color: #fff;
+    display: block;
+    margin: .8em 0;
+    padding: 8px;
 }
 /**************************************************
 main
