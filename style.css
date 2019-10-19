@@ -53,12 +53,19 @@ header
 }
 .g-nav-menu {
     display: table-cell;
+    transition: 1.0s;
+}
+.g-nav-menu:hover {
+    background: #cacaca;
 }
 .g-nav a {
     color: #fff;
     display: block;
     margin: .8em 0;
     padding: 8px;
+}
+.g-nav a:hover {
+    color: #161410;
 }
 /**************************************************
 main
