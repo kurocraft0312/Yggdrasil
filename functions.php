@@ -19,7 +19,7 @@ remove_action('wp_head','rsd_link');
 /************************************************
 機能追加
 ************************************************/
-// lazysizes.js(lazyload)対応
+// lazysizes.js(lazyload)対応(参照：https://nelog.jp/lazy-load-plugin-for-jquery)
 function add_image_placeholders( $content ) {
     if ( is_feed() || is_preview() || ( function_exists( 'is_mobile' ) && is_mobile() ) )
         return $content;
