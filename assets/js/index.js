@@ -8,7 +8,7 @@ $(document).ready(function() {
         // setting-name:setting-value
         autoplay: true,
         adaptiveHeight: true,
-        // arrows: false,
+        arrows: false,
         dots: true,
         infinite: true,
         mobileFirst: true,
