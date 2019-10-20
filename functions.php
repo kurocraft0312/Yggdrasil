@@ -19,6 +19,21 @@ remove_action('wp_head','rsd_link');
 /************************************************
 機能追加
 ************************************************/
+// lazysizes.js(lazyload)対応
+function add_image_placeholders( $content ) {
+    if ( is_feed() || is_preview() || ( function_exists( 'is_mobile' ) && is_mobile() ) )
+        return $content;
 
+    if ( false !== strpos( $content,'data-original' ) )
+        return $content;
+        
+    $content = preg_replace(
+        '#<img([^>]+?)src=[\'"]?([^\'"\s>]+)[\'"]?([^>]*)>#',
+        sprintf('<img${1}src="%s" data-original="${2}"${3} data-lazy="true" /><noscript><img${1}src="${2}"${3} /></noscript>', get_template_directory_uri().'/img/noscript.jpg' ),//noscript時に置き換える画像
+        $content );
+}
+add_filter('the_content','add_image_placeholders',99);
+add_filter('post_thumbnail_html','add_image_placeholders',11);
+add_filter('get_avatar','add_image_placeholders',11);
 
 ?>
