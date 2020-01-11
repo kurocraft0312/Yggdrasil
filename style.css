@@ -1,10 +1,13 @@
 @charset "utf-8";
 
+/**************************************************
+global(共通)
+**************************************************/
 /*
 font-size決め方
 https://qiita.com/AsagiriDesign/items/af182de0e1c6245d102d
 https://www.plusdesign.co.jp/blog/?p=5152
-基本は、bodyに対し、font-size:62.5%で指定。すると以下、1rem=10px 1.6rem=16pxのように計算がしやすくなる
+基本は、htmlに対し、font-size:62.5%で指定。すると以下、1rem=10px 1.6rem=16pxのように計算がしやすくなる
 */
 html {
     font-size: 62.5%;
@@ -33,13 +36,18 @@ h6 {
 p {
     font-size: 1.6rem;
 }
-
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
 /**************************************************
 header
 **************************************************/
 #title-header {
     display: flex;
     padding: 24px;
+    margin: 0 auto;
+    width: 80%;
 }
 .site-title {
     display: flex;
@@ -65,10 +73,10 @@ header
 .g-nav {
     display: table;
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     table-layout: fixed;
     text-align: center;
-    width: 100%;
+    width: 80%;
 }
 .g-nav-menu {
     display: table-cell;
@@ -92,6 +100,12 @@ header
 .top-eyecatch-image {
     width: 100%;
 }
+@media screen and (max-width: 425px) {
+    .g-nav {
+        width: 100%;
+    }
+}  
+
 /* メディアクエリでheightを調整する（参考：http://www-creators.com/archives/1601）
 .top-eyecatch-image {
     width: 100%;
