@@ -59,6 +59,10 @@ header
     font-size: 1.6rem;
     color: #161410;
     margin-left: auto;
+    text-align: center;
+}
+.business-hours {
+    font-size: 1.2rem;
 }
 .g-nav-area {
     background: #161410;
@@ -118,15 +122,21 @@ main
 }
 .management-issues {
     padding: 64px 0;
+    margin: 0 auto;
     text-align: center;
+    width: 80%;
 }
 .business-solution {
     padding: 64px 0;
+    margin: 0 auto;
     text-align: center;
+    width: 80%;
 }
 .works {
     padding: 64px 0;
+    margin: 0 auto;
     text-align: center;
+    width: 80%;
 }
 /**************************************************
 slick
