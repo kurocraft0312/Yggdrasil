@@ -59,7 +59,30 @@ header
     font-size: 1.6rem;
     color: #161410;
     margin-left: auto;
+    margin-right: 16px;
     text-align: center;
+}
+.contact-btn {
+    background-color: #ff5542;
+    border-bottom: solid 4px #ff3e29;
+    border-radius: 8px;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: auto 0;
+    padding: 8px 16px;
+}
+.contact-btn:hover {
+    background-color: #ffc342;
+    border-bottom: #ffad29;
+}
+.contact-btn:active {
+    border-bottom: none;
+    margin-top: 8px;
+    transform: translateY(8px);
+}
+.contact-btn-color {
+    color: #ffffff;
 }
 .business-hours {
     font-size: 1.2rem;
