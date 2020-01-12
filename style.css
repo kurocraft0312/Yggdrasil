@@ -1,6 +1,12 @@
 @charset "utf-8";
 
 /**************************************************
+コーディング規約
+**************************************************/
+/* 
+https://ja.wordpress.org/team/handbook/coding-standards/wordpress-coding-standards/css/
+*/
+/**************************************************
 global(共通)
 **************************************************/
 /*
@@ -135,7 +141,6 @@ header
         width: 100%;
     }
 }  
-
 /* メディアクエリでheightを調整する（参考：http://www-creators.com/archives/1601）
 .top-eyecatch-image {
     width: 100%;

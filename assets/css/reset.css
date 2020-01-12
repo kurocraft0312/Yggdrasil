@@ -1,4 +1,43 @@
-html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, address, code, em, img, strong, i, form, label, table, thead, tbody, tfoot, tr, th, td, article, aside, figure, figcaption, footer, header, menu, nav, section, video, ul {
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+address,
+code,
+em,
+img,
+strong,
+i,
+form,
+label,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+section,
+video,
+ul {
   margin: 0;
   padding: 0;
   border: 0;
@@ -7,11 +46,20 @@ html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, address, code,
   vertical-align: baseline;
 }
 
-article, aside, figcaption, figure, footer, header, menu, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+menu,
+nav,
+section {
   display: block;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
