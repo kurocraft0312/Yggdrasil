@@ -38,7 +38,6 @@
     <link rel="icon" href="./favicon.ico">
     <!-- Web Clip(Retina対応) -->
     <link rel="apple-touch-icon" href="">
-    <!-- CSS -->
     <title>Yggdrasil</title>
     <?php wp_head(); ?>
 </head>

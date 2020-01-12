@@ -3,7 +3,7 @@
 style.css/index.jsの読み込み
 ************************************************/
 function yggdrasil_scripts() {
-    wp_enqueue_style('my-reset-style', '/assets/css/reset.css', array(), '1.0.0', 'all' );
+    wp_enqueue_style('my-reset-style', get_template_directory_uri() . '/assets/css/reset.css', array(), '1.0.0', 'all' );
     wp_enqueue_style('my-style', get_stylesheet_uri() , array(), '1.0.0','all' );
     wp_enqueue_script('my-script', get_template_directory_uri() . 'assets/js/index.js', array('jquery'), '1.0.0' , 'all' );
 }
