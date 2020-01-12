@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Yggdrasil</title>
+    <?php wp_head(); ?>
 </head>
 <body>
     <header class="site-header">
@@ -237,5 +238,6 @@
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <script defer src="assets/js/lazysizes.min.js"></script>
     <script defer src="assets/js/index.js"></script>
+    <?php wp_footer(); ?>
 </body>
 </html>
