@@ -3,9 +3,9 @@
 style.css/index.jsの読み込み
 ************************************************/
 function yggdrasil_scripts() {
-    wp_enqueue_style('style-name', get_stylesheet_uri() . 'assets/css/reset.css', array(), '1.0.0', 'all' );
-    wp_enqueue_style('style-name', get_stylesheet_uri() , array(), '1.0.0','all' );
-    wp_enqueue_script('script-name', get_template_directory_uri() . 'assets/js/index.js', array(), '1.0.0' , 'all' );
+    wp_enqueue_style('my-reset-style', get_stylesheet_uri() . 'assets/css/reset.css', array(), '1.0.0', 'all' );
+    wp_enqueue_style('my-style', get_stylesheet_uri() , array(), '1.0.0','all' );
+    wp_enqueue_script('my-script', get_template_directory_uri() . 'assets/js/index.js', array(), '1.0.0' , 'all' );
 }
 add_action('wp_enqueue_scripts','yggdrasil_scripts');
 /************************************************
