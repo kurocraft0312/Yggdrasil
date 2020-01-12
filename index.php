@@ -39,8 +39,6 @@
     <!-- Web Clip(Retina対応) -->
     <link rel="apple-touch-icon" href="">
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="style.css">
     <title>Yggdrasil</title>
     <?php wp_head(); ?>
 </head>
