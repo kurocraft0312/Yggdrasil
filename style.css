@@ -33,6 +33,9 @@ h5 {
 h6 {
     font-size: 1.2rem;
 }
+img {
+    width: 100%;
+}
 p {
     font-size: 1.6rem;
 }
@@ -160,6 +163,39 @@ main
     margin: 0 auto;
     text-align: center;
     width: 80%;
+}
+.cus-voice {
+    padding: 64px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;    
+}
+.card-item-list {
+    display: flex;
+    justify-content: space-around;
+}
+.card-item {
+    margin: 8px;
+}
+.companyinfo {
+    padding: 64px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+.companyinfodesc {
+    margin: 8px 0;
+}
+.companyinfobox {
+    border-bottom: 1px dotted #c6ccd1;
+    font-size: 1.4rem;
+}
+.companyinfolist {
+    display: flex;
+    margin: 8px 0;
+}
+.dateinfo {
+    margin-right: 8px;
 }
 /**************************************************
 sidebar
