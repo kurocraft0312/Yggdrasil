@@ -1,8 +1,12 @@
 <?php
 /************************************************
-style.cssの読み込み
+style.css/index.jsの読み込み
 ************************************************/
-
+function yggdrasil_scripts() {
+    wp_enqueue_style('style-name', get_stylesheet_uri() );
+    wp_enqueue_script('script-name', get_template_directory_uri() . 'assets/js/index.js', array(), '1.0.0' , true );
+}
+add_action('wp_enqueue_scripts','yggdrasil_scripts');
 /************************************************
 機能削除
 ************************************************/
