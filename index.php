@@ -50,6 +50,7 @@
                 <a href="#" class="contact-btn-color">お問い合わせ</a>
             </div>
         </div>
+        <!-- この辺をコンポーネント化する -->
         <div class="g-nav-area">
             <nav class="title-menu">
                 <div class="container g-nav-wrap">
